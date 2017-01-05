@@ -1,0 +1,274 @@
+total data files in train - 11314
+total data files in test - (7532,)
+
+for mindf = 0.018 and max-df = 0.7
+features = 964
+for all
+Avg Accuracy 0.762334217507
+Avg Precision 0.7637504028
+Avg Recall 0.758027803514
+Avg F1 0.759673039886
+
+
+LSA on whole 500 features
+
+--------- Final results for Cross Validation ---------
+Avg Accuracy 0.799867374005
+Avg Precision 0.802380650626
+Avg Recall 0.796982121204
+Avg F1 0.798407083175
+
+
+Random forest for 100 features
+
+Avg Accuracy 0.749336870027
+Avg Precision 0.752063143892
+Avg Recall 0.742899204548
+Avg F1 0.744444858594
+
+LSA
+Avg Accuracy 0.74549071618
+Avg Precision 0.747692420361
+Avg Recall 0.738808401914
+Avg F1 0.740180043259
+
+Mutual info -
+Avg Accuracy 0.748938992042
+Avg Precision 0.75199627525
+Avg Recall 0.742401490471
+Avg F1 0.743814652232
+
+For 200 features
+
+Random forest
+
+--------- Final results for Cross Validation ---------
+Avg Accuracy 0.77599469496
+Avg Precision 0.778791139903
+Avg Recall 0.770860294447
+Avg F1 0.772261457886
+
+LSA
+
+Avg Accuracy 0.771352785146
+Avg Precision 0.774373594081
+Avg Recall 0.766529603215
+Avg F1 0.768008642141
+
+Mutual information
+
+--------- Final results for Cross Validation ---------
+Avg Accuracy 0.778116710875
+Avg Precision 0.780472021222
+Avg Recall 0.77321460021
+Avg F1 0.774646463698
+
+300 features
+
+Random forest
+
+Avg Accuracy 0.784084880637
+Avg Precision 0.786911849075
+Avg Recall 0.780315365045
+Avg F1 0.781764006077
+
+LSA
+
+Avg Accuracy 0.784880636605
+Avg Precision 0.786968621777
+Avg Recall 0.780121850737
+Avg F1 0.781416517058
+
+Mutual information
+
+Avg Accuracy 0.789389920424
+Avg Precision 0.791709813774
+Avg Recall 0.785327330161
+Avg F1 0.786660183513
+
+400 features
+
+Random forest
+
+Avg Accuracy 0.794429708223
+Avg Precision 0.797823050926
+Avg Recall 0.791508600957
+Avg F1 0.793008767883
+
+LSA
+
+Avg Accuracy 0.794960212202
+Avg Precision 0.796849823943
+Avg Recall 0.791476756417
+Avg F1 0.792767301922
+
+Mutual information
+
+Avg Accuracy 0.792838196286
+Avg Precision 0.795979634222
+Avg Recall 0.789467238288
+Avg F1 0.791145556524
+
+
+450 features
+
+Random forest
+
+Avg Accuracy 0.79801061008
+Avg Precision 0.800775295537
+Avg Recall 0.795082478367
+Avg F1 0.796564229388
+
+LSA
+
+Avg Accuracy 0.793236074271
+Avg Precision 0.795746068859
+Avg Recall 0.790091754503
+Avg F1 0.791541387656
+
+Mutual information
+
+Avg Accuracy 0.797612732095
+Avg Precision 0.800025643169
+Avg Recall 0.794468699341
+Avg F1 0.796026569772
+
+######################### for 100 reduced features only #########################
+
+k = 20
+
+Random forest
+
+Avg Accuracy 0.640318302387
+Avg Precision 0.638862136352
+Avg Recall 0.628976525368
+Avg F1 0.623370902104
+
+LSA
+
+Avg Accuracy 0.640716180371
+Avg Precision 0.640778403018
+Avg Recall 0.629961903514
+Avg F1 0.624958899944
+
+Mutual information
+
+Avg Accuracy 0.637400530504
+Avg Precision 0.636752491343
+Avg Recall 0.625850001244
+Avg F1 0.620414174536
+
+k = 50
+
+Random forest
+
+Avg Accuracy 0.7175066313
+Avg Precision 0.719324332473
+Avg Recall 0.708492399619
+Avg F1 0.707972187019
+
+LSA
+
+Avg Accuracy 0.707824933687
+Avg Precision 0.70931905219
+Avg Recall 0.698667851707
+Avg F1 0.697510978124
+
+Mutual information
+
+Avg Accuracy 0.709283819629
+Avg Precision 0.711135560007
+Avg Recall 0.700519646939
+Avg F1 0.699719771218
+
+
+LSA for 1500 features ..
+
+LSA for all 1500
+
+Avg Accuracy 0.815119363395
+Avg Precision 0.816841576293
+Avg Recall 0.813480648605
+Avg F1 0.814288859018
+
+Random forest 1200
+
+Avg Accuracy 0.811273209549
+Avg Precision 0.813442765242
+Avg Recall 0.808989297663
+Avg F1 0.81011208191
+
+LSA 1200
+
+Avg Accuracy 0.814058355438
+Avg Precision 0.815665366908
+Avg Recall 0.812107236456
+Avg F1 0.812972598397
+
+Mutual info 1200
+
+Avg Accuracy 0.809549071618
+Avg Precision 0.810933014495
+Avg Recall 0.807143440117
+Avg F1 0.808109802144
+
+
+For 600 features and 100 reduced feature
+
+LSA
+
+Avg Accuracy 0.658090185676
+Avg Precision 0.663107387476
+Avg Recall 0.652193839477
+Avg F1 0.652976668944
+
+Random forest top 50
+
+Avg Accuracy 0.626127320955
+Avg Precision 0.631422746429
+Avg Recall 0.618902448206
+Avg F1 0.618870380221
+
+LSA top 50
+
+Avg Accuracy 0.621485411141
+Avg Precision 0.627805094841
+Avg Recall 0.61454552433
+Avg F1 0.613913695213
+
+Mutual information top 50
+
+Avg Accuracy 0.622148541114
+Avg Precision 0.628834362185
+Avg Recall 0.615283810206
+Avg F1 0.614580603109
+
+min_df = 0.18 max_df = 0.4
+
+LSA overall for 100
+
+Avg Accuracy 0.653050397878
+Avg Precision 0.657633036214
+Avg Recall 0.646388092465
+Avg F1 0.646837757203
+
+Random forest for top 80
+
+Avg Accuracy 0.644164456233
+Avg Precision 0.646138010948
+Avg Recall 0.637160601762
+Avg F1 0.636698611701
+
+LSA
+
+Avg Accuracy 0.642042440318
+Avg Precision 0.646227779442
+Avg Recall 0.634626273721
+Avg F1 0.63411053734
+
+Mutual information
+
+Avg Accuracy 0.646419098143
+Avg Precision 0.651707048885
+Avg Recall 0.639288092616
+Avg F1 0.638639444853
